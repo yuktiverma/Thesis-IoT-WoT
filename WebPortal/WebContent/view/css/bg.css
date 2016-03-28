@@ -1,0 +1,35 @@
+
+html, body {
+    height: 100%;
+    min-height: 400px; /* to cater for no element 'collision'... */
+    margin: 0;
+    padding: 0;
+    position: relative; /* to keep header and footer positioned correctly... */
+}
+
+#header {
+    
+    height: 65px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#container {
+    
+    width: 600px;
+    height: 40%;
+    position: absolute;
+    left: 50%;
+    margin-left: -300px; /* 50% over, then move back 300px to center... */
+}
+
+#footer {
+    background-color: #32a9c3;;
+    height: 65px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}

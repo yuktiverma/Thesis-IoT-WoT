@@ -1,0 +1,4 @@
+Temperature=coap://192.168.1.11:5683/temp
+Pressure=coap://192.168.1.11:5683/pressure
+ToggleRedLight=coap://192.168.1.11:5683/pressure
+ToggleGreenLight=coap://192.168.1.11:5683/pressure
